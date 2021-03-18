@@ -1,0 +1,33 @@
+@model VCubWatcher.Models.StationList;
+
+@{
+    ViewData["Title"] = "List Station";
+}
+<div class="container list-group"><h1 class="display-5">Liste des Stations</h1>
+
+<ul class="row list-group list-group-horizontal">
+    <li class="col list-group-item list-group-item-dark">Nom</li>
+    <li class="col list-group-item list-group-item-dark">Nombre de vélos</li>
+    <li class="col list-group-item list-group-item-dark">nombre de vélos éléctriques</li>
+    <li class="col list-group-item list-group-item-dark">Nombre total de vélos</li>
+    <li class="col list-group-item list-group-item-dark">Emplacements</li>
+    <li class="col list-group-item list-group-item-dark">En ligne</li>
+</ul>
+@foreach(var station in Model.ListOfStations) {
+    <ul class="row list-group list-group-horizontal">
+        <li class="col list-group-item">@station.Name</li>
+        <li class="col list-group-item">@station.BikeCount</li>
+        <li class="col list-group-item">@station.ElectricBikeCount</li>
+        <li class="col list-group-item">@station.BikeCountTotal</li>
+        <li class="col list-group-item">@station.SlotCount</li>
+        @if (@station.IsOnline) {
+            <li class="col list-group-item list-group-item-success"></li>
+        } else {
+            <li class="col list-group-item list-group-item-danger"></li>
+        }
+        
+    </ul>
+}
+
+
+</div>

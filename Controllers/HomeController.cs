@@ -28,6 +28,24 @@ namespace VCubWatcher.Controllers
             return View();
         }
 
+        public async Task<IActionResult> StationList() 
+        {
+
+            var StationsModel = new StationList();
+            await StationsModel.fetchData();
+
+            return View(StationsModel);
+        }
+
+        public async Task<IActionResult> Map() 
+        {
+
+            var StationsModel = new StationList();
+            await StationsModel.fetchData();
+
+            return View(StationsModel);
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

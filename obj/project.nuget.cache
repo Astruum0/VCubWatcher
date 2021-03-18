@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "E8ZdsXxuxX7S/EmRlla6UZL97oUIBH/r+SGkrJ5yfXPSKIzoTHRkdGj026ZHda9WpOitTFsjK+Hi39M6I0Mdtg==",
+  "dgSpecHash": "3HMPfqpi0mznydmD1KetL7MbcNlf4joPWhArxq2LW4p93hcOg8NJBn1ZqLdSONmxa1xUvjhQis8yuL5FUPP3bw==",
   "success": true,
   "projectFilePath": "/Users/macbookair/Desktop/Ynov/dotNet/VCubWatcher/VCubWatcher.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/macbookair/.nuget/packages/system.text.json/5.0.1/system.text.json.5.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

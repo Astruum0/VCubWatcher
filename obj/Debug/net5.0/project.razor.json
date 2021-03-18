@@ -15623,6 +15623,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/macbookair/Desktop/Ynov/dotNet/VCubWatcher/Views/Home/Map.cshtml",
+      "TargetPath": "Views\\Home\\Map.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/macbookair/Desktop/Ynov/dotNet/VCubWatcher/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -15630,6 +15635,11 @@
     {
       "FilePath": "/Users/macbookair/Desktop/Ynov/dotNet/VCubWatcher/Views/Home/Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/macbookair/Desktop/Ynov/dotNet/VCubWatcher/Views/Home/StationList.cshtml",
+      "TargetPath": "Views\\Home\\StationList.cshtml",
       "FileKind": "mvc"
     },
     {

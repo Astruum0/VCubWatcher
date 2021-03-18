@@ -37,3 +37,5 @@
 /Users/macbookair/Desktop/Ynov/dotNet/VCubWatcher/obj/Debug/net5.0/VCubWatcher.pdb
 /Users/macbookair/Desktop/Ynov/dotNet/VCubWatcher/obj/Debug/net5.0/VCubWatcher.genruntimeconfig.cache
 /Users/macbookair/Desktop/Ynov/dotNet/VCubWatcher/obj/Debug/net5.0/VCubWatcher.csproj.CopyComplete
+/Users/macbookair/Desktop/Ynov/dotNet/VCubWatcher/obj/Debug/net5.0/Razor/Views/Home/StationList.cshtml.g.cs
+/Users/macbookair/Desktop/Ynov/dotNet/VCubWatcher/bin/Debug/net5.0/System.Text.Json.dll
